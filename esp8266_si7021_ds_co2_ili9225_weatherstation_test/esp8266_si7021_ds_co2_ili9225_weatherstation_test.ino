@@ -17,12 +17,12 @@
 #define BUTTON_PIN D0
 
 // ==================== WiFi配置 ====================
-const char* ssid = "onepiece";
-const char* password = "89023510";
+const char* ssid = "ssid";
+const char* password = "ssid_psk";
 
 // ==================== 和风天气配置 ====================
 String weather_city_code = "101120101";
-String weather_api_key = "834df835928347f1b227c21387ad079e";
+String weather_api_key = "888ab888888888c8d888e88888fg888h";
 String current_weather_url = "https://devapi.qweather.com/v7/weather/now?key=" + weather_api_key + "&location=" + weather_city_code;
 String forecast_weather_url = "https://devapi.qweather.com/v7/weather/3d?key=" + weather_api_key + "&location=" + weather_city_code;
 
