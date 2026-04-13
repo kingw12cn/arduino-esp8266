@@ -17,12 +17,12 @@
 #define BUTTON_PIN D0
 
 // ==================== WiFi配置 ====================
-const char* ssid = "ssid";
-const char* password = "ssid_psk";
+const char* ssid = "ssid";                //改成自己的ssid
+const char* password = "ssid_psk";        //改成自己的psk
 
 // ==================== 和风天气配置 ====================
-String weather_city_code = "101120101";
-String weather_api_key = "888ab888888888c8d888e88888fg888h";
+String weather_city_code = "101010100";      //默认城市是北京，需要修改成自己的城市city code
+String weather_api_key = "888ab888888888c8d888e88888fg888h";      //改成自己的和风天气api key
 String current_weather_url = "https://devapi.qweather.com/v7/weather/now?key=" + weather_api_key + "&location=" + weather_city_code;
 String forecast_weather_url = "https://devapi.qweather.com/v7/weather/3d?key=" + weather_api_key + "&location=" + weather_city_code;
 
