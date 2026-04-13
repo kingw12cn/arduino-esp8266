@@ -1,2 +1,2 @@
 esp8266天气时钟，TFT显示采用ILI9225，176*220分辨率，采用和风天气API获取当天和三天天气，用si7021获取本地温湿度，并在TFT屏幕显示，半成品非最终版。
-本地城市city code可以从https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv获得
+本地城市city code可以从 https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv 获得
